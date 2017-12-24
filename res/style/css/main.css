@@ -50,6 +50,9 @@ p {
 .fa-bars {
   color: white; }
 
+ol li {
+  color: #a3a3a3; }
+
 nav {
   background-color: rgba(0, 0, 0, 0.4); }
   nav a {
@@ -105,11 +108,9 @@ nav {
     color: black; }
 
 .footer {
-  margin-top: 5%;
-  border-top: 2px solid white; }
-  .footer a {
-    color: #d60000;
-    text-decoration: underline; }
+  margin-top: 5%; }
+  .footer .fa {
+    color: white; }
   .footer p {
     margin: 0;
     text-align: center; }
@@ -122,12 +123,12 @@ nav {
     justify-content: space-around;
     align-items: center; }
 
-.all-white, .social, .footerImg {
+.all-white, .footerImg {
   filter: invert(100%); }
 
-.footer-item-size, .social, .footerImg {
-  width: 30px;
-  height: 30px; }
+.footer-item-size, .footerImg {
+  width: 2em;
+  height: 2em; }
 
 .musicbanner {
   width: 100%;
